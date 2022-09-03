@@ -8,6 +8,8 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 
 Fun things to talk about ...
 
+![alt text](Isolated.png "Title")
+
 ---
 
 ### This is a header
