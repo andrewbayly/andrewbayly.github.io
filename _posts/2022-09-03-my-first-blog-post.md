@@ -8,7 +8,7 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 
 Fun things to talk about ...
 
-![alt text](poly-5-1-1.png "Title")
+![alt text 2](poly-5-1-1.png "Title")
 
 ---
 
