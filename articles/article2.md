@@ -1,5 +1,6 @@
 ---
-show_in_nav: false
+layout: page
+permalink: /contact/thanks/
 ---
 
 ## My Second Article
