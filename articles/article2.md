@@ -1,4 +1,5 @@
 ---
+hide: true
 permalink: /articles/article2/
 ---
 
