@@ -1,6 +1,4 @@
----
-permalink: /articles/article2/
----
+
 
 ---
 # My Second Article !!!!!!
