@@ -1,5 +1,3 @@
-
-
 ---
 # My Second Article !?
 
@@ -15,4 +13,3 @@ Fun things to talk about ...
 
 ![alt text 5](/assets/images/poly-5-1-1.png "Title")
 
----
