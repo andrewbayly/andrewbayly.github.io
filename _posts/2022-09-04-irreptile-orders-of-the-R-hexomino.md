@@ -21,25 +21,28 @@ First, consider the following constructions of a square from 54, 57, 60 and 63 t
 ![54](/assets/images/2022-09-04/pic-3.png "54")
 
 57: 
-<pic 4> 
+
+![57](/assets/images/2022-09-04/pic-4.png "57")
 
 60: 
-<pic 5> 
+
+![60](/assets/images/2022-09-04/pic-5.png "60")
 
 63: 
-<pic 6> 
+
+![63](/assets/images/2022-09-04/pic-6.png "63")
 
 Note that these are consecutive multiples of 3, and hence are equal to 0, 1, 2, 3 mod 4. 
 
 Further, note that we can surround any square tiling with 4 tiles, resulting in another square tiling, like this:
 
-<pic 7> 
+![pic-7](/assets/images/2022-09-04/pic-7.png "pic-7")
 
 From this we conclude that a square can be tiled with any value 63 or more. 
 
 Apply this result to the following tiling, and we have our conclusion that all tilings 120 or more are possible:
 
-<pic 8> 
+![pic-8](/assets/images/2022-09-04/pic-8.png "pic-8")
 
 
 
