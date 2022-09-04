@@ -16,7 +16,7 @@ all orders greater than or equal to 120 are possible.
 ### Proof
 First, consider the following constructions of a square from 54, 57, 60 and 63 tiles:
 54: 
-![alt text 5](/assets/images/2022-09-04/pic-1.tiff "Title")
+![alt text 5](/assets/images/2022-09-04/pic-3.tiff "Title")
 57: 
 <pic 4> 
 60: 
