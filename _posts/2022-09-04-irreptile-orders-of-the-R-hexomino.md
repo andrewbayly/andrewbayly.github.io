@@ -6,7 +6,7 @@ reptile tiling is shown here.
 
 <pic 1>
 
-This hexomino is also an irreptile, and its minimal reptile tiling is shown here. 
+This hexomino is also an irreptile, and its minimal irreptile tiling is shown here. 
 
 <pic 2> 
 
