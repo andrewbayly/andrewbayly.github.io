@@ -4,11 +4,11 @@ page, and presented here is an expanded version of my findings.
 To recap, a polyomino is a reptile if it can be tiled with smaller copies of itself, all the same size. The R-hexomino is a reptile, and its minimal 
 reptile tiling is shown here. 
 
-<pic 1>
+![81](/assets/images/2022-09-04/poly-6B-81.png "81")
 
 This hexomino is also an irreptile, and its minimal irreptile tiling is shown here. 
 
-<pic 2> 
+![63](/assets/images/2022-09-04/poly-6B-63.png "63")
 
 While the order of the irreptile tiling is 63, the question at hand is what are the possible orders of irreptile tilings. The following argument shows 
 all orders greater than or equal to 120 are possible. 
