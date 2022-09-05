@@ -1,4 +1,4 @@
-In <link 1> Erich Friedman asks what are the possible orders of polyomino irreptiles. I contributed to the solution presented on that 
+In [Math Magic August 2010](https://erich-friedman.github.io/mathmagic/0810.html) Erich Friedman asks what are the possible orders of polyomino irreptiles. I contributed to the solution presented on that 
 page, and presented here is an expanded version of my findings. 
 
 To recap, a polyomino is a reptile if it can be tiled with smaller copies of itself, all the same size. The R-hexomino is a reptile, and its minimal 
