@@ -26,3 +26,18 @@ minimal to the best of my knowledge.
 
 We can also apply the concept to irreptiles. Here are some irregular irreptiles. These are also minimal.
 
+![rep-4-1](/assets/images/2022-09-08/rep-4-1.png "rep-4-1")
+
+![rep-4-2](/assets/images/2022-09-08/rep-4-2.png "rep-4-2")
+
+![rep-5-1](/assets/images/2022-09-08/rep-5-1.png "rep-5-1")
+
+![rep-5-2](/assets/images/2022-09-08/rep-5-2.png "rep-5-2")
+
+![rep-6-1](/assets/images/2022-09-08/rep-6-1.png "rep-6-1")
+
+![rep-7-1](/assets/images/2022-09-08/rep-7-1.png "rep-7-1")
+
+![rep-8-1](/assets/images/2022-09-08/rep-8-1.png "rep-8-1")
+
+
