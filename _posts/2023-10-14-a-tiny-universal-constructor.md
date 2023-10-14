@@ -90,10 +90,11 @@ Links to Youtube videos of the CA in action:
 
 ### Files
 
+To play with this CA in [Golly](https://golly.sourceforge.io/), you'll need two files: the .mc file and the .rule file. You can get these here:
 
+[UC2.mc](https://github.com/andrewbayly/UniversalConstructor/blob/main/UC2.mc)
 
-
-
+[N6.rule](https://github.com/andrewbayly/UniversalConstructor/blob/main/N6.rule)
 
 
 
