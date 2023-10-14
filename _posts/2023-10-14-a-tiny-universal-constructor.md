@@ -22,13 +22,14 @@ The device looks like this:
 
 ![Anatomy](/assets/images/2023-10-14/image1.png "Anatomy")
 
-Transmission Arm: Sends data from the parent to the child
-Construction Arm: Constructs the Child
-Replicator: Splits data from the loop and passes to the Construction Arm and Transmission Arm
-Tape Loops: Store genetic information
-Reception Arm: Receives genetic information from parent
-Start/Stop Gate: Controls flow of information from parent to child.
-XOR Gate: Allows information to flow from parent to child and within the machine.
+| Part | Description | 
+| Transmission Arm | Sends data from the parent to the child |
+| Construction Arm | Constructs the Child |
+| Replicator | Splits data from the loop and passes to the Construction Arm and Transmission Arm |
+| Tape Loops | Store genetic information |
+| Reception Arm | Receives genetic information from parent |
+| Start/Stop Gate | Controls flow of information from parent to child |
+| XOR Gate | Allows information to flow from parent to child and within the machine | 
 
 ### Phases of Operation
 
