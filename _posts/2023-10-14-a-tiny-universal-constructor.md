@@ -1,5 +1,7 @@
 A tiny new CA device has all the capabilities of a Universal Constructor, namely that it can self-replicate, and if extended can recreate any pattern of cells, yet fits in an 8x27 rectangle. This post describes the pattern and its associated rule in detail.
 
+![Partial Construction of Child Device](/assets/images/2023-10-14/image3.png "Partial Construction of Child Device")
+
 ### Background
 If you are not familiar with Universal Constructors, I recommend you read this first: 
 
