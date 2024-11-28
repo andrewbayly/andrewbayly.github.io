@@ -7,18 +7,21 @@ To create the complete tiling, we start with the floret, and then repeatedly app
 n: 8 
 
 ![floret_8](/assets/images/2024-11-27/floret_8.png "floret_8")
+<br>
 ![rules_8](/assets/images/2024-11-27/rules_8.png "rules_8")
 ![patch_8](/assets/images/2024-11-27/patch_8.png "patch_8")
 
 n: 10
 
 ![floret_10](/assets/images/2024-11-27/floret_10.png "floret_10")
+<br>
 ![rules_10](/assets/images/2024-11-27/rules_10.png "rules_10")
 ![patch_10](/assets/images/2024-11-27/patch_10.png "patch_10")
 
 n: 12
 
 ![floret_12](/assets/images/2024-11-27/floret_12.png "floret_12")
+<br>
 ![rules_12](/assets/images/2024-11-27/rules_12.png "rules_12")
 ![patch_12](/assets/images/2024-11-27/patch_12.png "patch_12")
 
