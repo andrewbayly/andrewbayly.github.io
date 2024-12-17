@@ -2,7 +2,7 @@ Sub Rosa ( described in [this paper](https://arxiv.org/pdf/1512.01402) ) is a sy
 
 To transform a tiling, we need to transform the substitution rules. Within a Sub Rosa tiling, we find roses with 2n-fold rotational symmetry, as well as some roses with n-fold rotational symmetry.
 
-Some terminology: We refer to a "broken" rose as a rose with the inner-most two rows of petals reversed, as illustrated in the following diagram. As you can see, while a rose has 2n-fold rotational symmetry, a broken rose has only n-fold rotational symmetry. We will also encounter "partially broken" roses ( see diagram ) which have no rotational symmetry
+Some terminology: We refer to a "broken" rose as a rose with the inner-most two rows of petals reversed, as illustrated in the following diagram. As you can see, while a rose has 2n-fold rotational symmetry, a broken rose has only n-fold rotational symmetry. We will also encounter "partially broken" roses ( see diagram ) which have no rotational symmetry.
 
 Roses: (from left) original, broken and partially broken
 
