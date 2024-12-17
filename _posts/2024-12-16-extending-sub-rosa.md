@@ -12,17 +12,17 @@ Our strategy then is to modify the substitution rules, removing all roses, and r
 
 Based on my observations of the examples in the Sub Rosa paper, roses appear either at the center of a super-rhombus or in the middle of at edge, or at the corners. In each case, we can break either the whole rose or part of a rose by working around it, rotating the petals in pairs in turn, until we run out of petals around the rose.
 
-Examples
+## Examples
 
 To illustrate the process, I present the modified substitution rules, and a tile patch for n=5 and n=7.
 
-n=5
+### n=5
 
 ![rules-5](/assets/images/2024-12-16/rules-5.png "rules-5") 
 
 ![patch-5](/assets/images/2024-12-16/patch-5.png "patch-5") 
 
-n=7
+### n=7
 
 ![rules-7](/assets/images/2024-12-16/rules-7.png "rules-7") 
 
