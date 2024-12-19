@@ -4,7 +4,7 @@ To transform a tiling, we need to transform the substitution rules. Within a Sub
 
 Some terminology: We refer to a "broken" rose as a rose with the inner-most two rows of petals reversed, as illustrated in the following diagram. As you can see, while a rose has 2n-fold rotational symmetry, a broken rose has only n-fold rotational symmetry. We will also encounter "partially broken" roses ( see diagram ) which have no rotational symmetry.
 
-Roses: (from left) original, broken and partially broken
+Roses: (from left) original, broken and partially broken.
 
 ![roses-7](/assets/images/2024-12-16/roses-7.png "roses-7") 
 
