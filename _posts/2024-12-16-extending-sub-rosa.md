@@ -1,6 +1,4 @@
-Sub Rosa ( described in [this paper](https://arxiv.org/pdf/1512.01402) ) is a system of quasiperiodic rhombic substitution tilings with $2n$-fold rotational symmetry, for any $n$. Sub Rosa takes care of the case of even $n$, however it leaves open the case of odd $n$. In this post, I describe in outline a method for transforming a Sub Rosa tiling, reducing the rotational symmetry by a factor of $2$, thus yielding a system of quasiperiodic rhombic substitution tilings with $n$-fold rotational symmetry for any $n$.
-
-To transform a tiling, we transform the substitution rules. Within a Sub Rosa tiling, we may find roses with $2n$-fold rotational symmetry, as well as some roses with $n$-fold rotational symmetry.
+Sub Rosa ( described in [this paper](https://arxiv.org/pdf/1512.01402) ) is a system of quasiperiodic rhombic substitution tilings with $2n$-fold rotational symmetry, for any $n$. Sub Rosa takes care of the case of even symmetry, however it leaves open the case of odd symmetry. In this post, I describe a method for transforming a Sub Rosa tiling, reducing the rotational symmetry by a factor of $2$. This method only works for odd $n$, So this method and original Sub Rosa dovetail yielding a system of quasiperiodic rhombic substitution tilings with $n$-fold rotational symmetry for any $n$.
 
 ## Terminology
 
@@ -12,7 +10,7 @@ Roses: (from left) original, broken and random.
 
 ![roses-7](/assets/images/2024-12-16/roses-7.png "roses-7") 
 
-A *cube* is a patch of $3$ rhombuses, one $(2, n-2)$ rhombus and two $(1, n-1)$ rhombuses joined together to form a patch, which looks like a cube in perspective. To *flip* a cube means to rotate the patch by $180$degrees about its center. 
+A *cube* is a patch of $3$ rhombuses, one $(2, n-2)$ rhombus and two $(1, n-1)$ rhombuses joined together to form a patch, which looks like a cube in perspective. To *flip* a cube means to rotate the patch by $180$ degrees about its center. 
 
 ## Theorem
 
