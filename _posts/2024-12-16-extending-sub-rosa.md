@@ -1,5 +1,3 @@
-!!!!!!
-
 Sub Rosa ( described in [this paper](https://arxiv.org/pdf/1512.01402) ) is a system of quasiperiodic rhombic substitution tilings with $2n$-fold rotational symmetry, for any $n$. Sub Rosa takes care of the case of even $n$, however it leaves open the case of odd $n$. In this post, I describe in outline a method for transforming a Sub Rosa tiling, reducing the rotational symmetry by a factor of $2$, thus yielding a system of quasiperiodic rhombic substitution tilings with $n$-fold rotational symmetry for any $n$.
 
 To transform a tiling, we transform the substitution rules. Within a Sub Rosa tiling, we may find roses with $2n$-fold rotational symmetry, as well as some roses with $n$-fold rotational symmetry.
