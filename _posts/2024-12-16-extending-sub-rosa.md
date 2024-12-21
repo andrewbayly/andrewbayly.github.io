@@ -1,20 +1,41 @@
-Sub Rosa ( described in [this paper](https://arxiv.org/pdf/1512.01402) ) is a system of quasiperiodic rhombic substitution tilings with 2n-fold rotational symmetry, for any n. Sub Rosa takes care of the case of even n, however it leaves open the case of odd n. In this post, I describe in outline a method for transforming a Sub Rosa tiling, reducing the rotational symmetry by a factor of two, thus yielding a system of quasiperiodic rhombic substitution tilings with n-fold rotational symmetry for any n.
+Sub Rosa ( described in [this paper](https://arxiv.org/pdf/1512.01402) ) is a system of quasiperiodic rhombic substitution tilings with $2n$-fold rotational symmetry, for any $n$. Sub Rosa takes care of the case of even $n$, however it leaves open the case of odd $n$. In this post, I describe in outline a method for transforming a Sub Rosa tiling, reducing the rotational symmetry by a factor of $2$, thus yielding a system of quasiperiodic rhombic substitution tilings with $n$-fold rotational symmetry for any $n$.
 
-To transform a tiling, we need to transform the substitution rules. Within a Sub Rosa tiling, we find roses with 2n-fold rotational symmetry, as well as some roses with n-fold rotational symmetry.
+To transform a tiling, we transform the substitution rules. Within a Sub Rosa tiling, we may find roses with $2n$-fold rotational symmetry, as well as some roses with $n$-fold rotational symmetry.
 
-Some terminology: We refer to a "broken" rose as a rose with the inner-most two rows of petals reversed, as illustrated in the following diagram. As you can see, while a rose has 2n-fold rotational symmetry, a broken rose has only n-fold rotational symmetry. We will also encounter "random" roses ( see diagram ) which have no rotational symmetry.
+## Terminology
+
+As I said, the method is based on Sub Rosa, and several terms are both defined in Sub Rosa and used in the same sense in this post. Specifically the terms *tiling*, *rhombus*, *substitution*, *uniformly recurrent*, *primitive*, *quasiperiodic*.
+
+We refer to a *broken* rose as a rose with the inner-most two rows of petals reversed, as illustrated in the following diagram. As you can see, while a rose has $2n$-fold rotational symmetry, a broken rose has only $n$-fold rotational symmetry. We will also encounter *random* roses ( see diagram ) which have no rotational symmetry.
 
 Roses: (from left) original, broken and random.
 
 ![roses-7](/assets/images/2024-12-16/roses-7.png "roses-7") 
 
-Our strategy then is to modify the substitution rules, removing all roses, and replacing them with broken roses or random roses. If we succeed in removing all roses, then we will no longer have 2n-fold rotational symmetry, and if we succeed in adding at least some broken roses, we will achieve the goal of reaching n-fold rotational symmetry. One assumption I have made is that there is at least one rose appearing in the center of a tile, or at the very least a patch which already displays n-fold rotational symmetry.
+A *cube* is a patch of $3$ rhombuses, one $(2, n-2)$ rhombus and two $(1, n-1)$ rhombuses joined together to form a patch, which looks like a cube in perspective. To *flip* a cube means to rotate the patch by $180$degrees about its center. 
 
-Based on my observations of the examples in the Sub Rosa paper, roses appear either at the center of a super-rhombus or in the middle of at edge, or at the corners. In each case, we can break either the whole rose or part of a rose by working around it, rotating the petals in pairs in turn, until we run out of petals around the rose.
+## Theorem
+
+The main result is the following theorem.
+
+__Theorem 1__ For every n, there exists a quasiperiodic rhombic substitution tiling with n-fold rotational symmetry.
+
+## Method
+
+There are two cases: if $n$ is even, we use an unmodified Sub Rosa tiling with order $\frac{n}{2}$. If $n$ is odd, we start with a Sub Rosa tiling of order $n$, and modify it as follows.
+
+Flip “as many cubes as we can find” at the corner, edge or in the interior, wherever a rose or part-rose is found. There are two cases for the number of rhombuses found - odd or even. In the even case we flip cubes that comprise all the rhombuses, and in the odd case there will be one rhombus left over. For symmetry, although it’s not strictly required, we always work counter-clockwise around a vertex.
+
+## Observations
+
+The resulting tiling is uniformly recurrent. To prove this, consider a patch $P$ made from $n$ rhombuses of type $(2, n-2)$, joined together at their thin vertex. This pattern $P$ appears at the center of the initial tiling. The patch $P$ will re-appear at the next level because at least one cube appears, and at the center of the cube there are three corners: two fat corners of $(1,n-1)$ rhombuses, each contributing $\frac{n-1}{2}$ cubes (since $n$ is odd, this is a whole number) and one thin corner of a $(2,n-2)$ rhombus, which contributes $1$ cube. Together these corners contribute $n$ cubes. Since all these cubes are flipped, patch $P$ appears at their center.
+
+The resulting tiling exhibits $n$-fold symmetry, without exhibiting $2n$-fold symmetry. To prove this, observe that within all substitution rules, occurrences of roses or part-roses with $2n$-fold symmetry are flipped, causing the symmetry to deflate by a factor of $2$. 
+
 
 ## Examples
 
-To illustrate the process, I present the modified substitution rules, and a tile patch for n=5 and n=7.
+To illustrate the process, I present the modified substitution rules, and a tile patch for $n=5$ and $n=7$.
 
 ### n=5
 
