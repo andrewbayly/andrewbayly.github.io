@@ -28,7 +28,7 @@ The initial tiling is a broken rose rather than the original rose that is used i
 
 The resulting tiling is uniformly recurrent. To prove this, consider a patch $P$ made from $n$ rhombuses of type $(2, n-2)$, joined together at their thin vertex. This patch $P$ appears at the center of the initial tiling. The patch $P$ will re-appear at the next level because at least one cube appears, and at the center of the cube there are three corners: two fat corners of $(1,n-1)$ rhombuses, each contributing $\frac{n-1}{2}$ cubes (since $n$ is odd, this is a whole number) and one thin corner of a $(2,n-2)$ rhombus, which contributes $1$ cube. Together these corners contribute $n$ cubes. Since all these cubes are flipped, patch $P$ appears at their center.
 
-The resulting tiling exhibits $n$-fold symmetry, without exhibiting $2n$-fold symmetry. To prove this, observe that within all substitution rules, occurrences of roses or part-roses with $2n$-fold symmetry are flipped, causing the symmetry to deflate by a factor of $2$. 
+The resulting tiling exhibits $n$-fold symmetry, without exhibiting $2n$-fold symmetry. To prove this, observe that within all substitution rules, occurrences of roses or part-roses with $2n$-fold symmetry are flipped, causing the symmetry to deflate by a factor of $2$, giving rise to either a broken rose or a random rose.
 
 
 ## Examples
