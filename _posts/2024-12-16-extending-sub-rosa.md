@@ -16,7 +16,7 @@ A *cube* is a patch of $3$ rhombuses, one $(2, n-2)$ rhombus and two $(1, n-1)$ 
 
 The main result is the following theorem.
 
-__Theorem 1__ For every n, there exists a quasiperiodic rhombic substitution tiling with n-fold rotational symmetry.
+__Theorem 1__ For every $n\geq5$, there exists a quasiperiodic rhombic substitution tiling with $n$-fold rotational symmetry.
 
 ## Method
 
