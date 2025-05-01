@@ -6,7 +6,7 @@ Happily, I discovered that cylindrical strata tilings do exist when n=6.
 
 One such tiling is shown below.
 
-![cyl-strata-hex](/assets/images/2025-05-01/cyl-strata-hex.png "cyl-strata-hex")
+![cyl-strata-hex](/assets/images/2025-5-1/cyl-strata-hex.png "cyl-strata-hex")
 
 This tiling uses 174 tiles. I'm fairly confident that this is minimal, but would love to hear from you if you can improve it.
 
