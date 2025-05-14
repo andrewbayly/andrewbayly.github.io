@@ -2,18 +2,24 @@ The starting point for this investigation is George Sicherman's [Hexomino Pair R
 
 In the table below, you will see number of tiles needed to for each pair of hexominoes. The rows are the isolating hexominoes, while the columns are the isolated hexomino.
 
+Contributions were received from George Sicherman (GS).
+
 ## Hexomino Numbers 
 
 ![hex-key-3](/assets/images/2025-05-08/hex-key-3.png "hex-key-3")
 
 ## Table of Results
 
-In the table, the entries are the number of tiles needed, which are then referenced in the list of tilings below. Round brackets indicate that this tiling was already isolated in [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html), so refer back to that page to see the tiling. Tilings with hexomino #1, are a special case. These tilings are formed in a specific way, and pictures are not shown in the list below, nor in the table. To create such an isolated tiling, simply add bands of #1's across the tiling between each of the isolated tiles. Spaces in the table may indicate that a tiling is possible or impossible. Refer back to [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html) to understand which. 
+In the table, the entries are the number of tiles needed, which are then referenced in the list of tilings below. Round brackets indicate that this tiling was already isolated in [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html), so refer back to that page to see the tiling. Tilings with hexomino #1, are a special case. These tilings are formed in a specific way, and pictures are not shown in the list below, nor in the table. To create such an isolated tiling, simply add bands of #1's across the tiling between each of the isolated tiles. Spaces in the table may indicate that a tiling is possible or impossible. Refer to [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html) to understand which. 
 
 ![table](/assets/images/2025-05-08/table.png "table")
 
 ### 4 Tiles
 ![t4](/assets/images/2025-05-08/t4.png "t4")
+
+
+### 5 Tiles
+![t5](/assets/images/2025-05-08/t5.png "t5")
 
 
 ### 6 Tiles
