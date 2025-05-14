@@ -1,6 +1,6 @@
 The starting point for this investigation is George Sicherman's [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html). In that page, he defines a hexomino pair rectangle as a rectangle that can be tiled by a pair of hexominoes using at least one of each. I add a constraint - hexominoes from one of the pair are not allowed to touch. I refer to the hexominoes as the isolating, and isolated hexomino.
 
-In the table below, you will see number of tiles needed to for each pair of hexominoes. The rows are the isolating hexominoes, while the columns are the isolated hexomino.
+In the table below, you will see number of tiles needed to for each pair of hexominoes. The rows are the isolating hexominoes, while the columns are the isolated hexomino. The tilings are minimal to the best of my knowledge. If you find a solution with less tiles, or a new solution, please write.
 
 Contributions were received from George Sicherman (GS).
 
