@@ -74,6 +74,14 @@ In the table, the entries are the number of tiles needed, which are then referen
 ![t24](/assets/images/2025-05-08/t24.png "t24")
 
 
+### 25 Tiles
+![t25](/assets/images/2025-05-08/t25.png "t25")
+
+
+### 26 Tiles
+![t26](/assets/images/2025-05-08/t26.png "t26")
+
+
 ### 28 Tiles
 ![t28](/assets/images/2025-05-08/t28.png "t28")
 
@@ -86,24 +94,28 @@ In the table, the entries are the number of tiles needed, which are then referen
 ![t32](/assets/images/2025-05-08/t32.png "t32")
 
 
+### 34 Tiles
+![t34](/assets/images/2025-05-08/t34.png "t34")
+
+
+### 35 Tiles
+![t35](/assets/images/2025-05-08/t35.png "t35")
+
+
 ### 36 Tiles
 ![t36](/assets/images/2025-05-08/t36.png "t36")
+
+
+### 39 Tiles
+![t39](/assets/images/2025-05-08/t39.png "t39")
 
 
 ### 40 Tiles
 ![t40](/assets/images/2025-05-08/t40.png "t40")
 
 
-### 42 Tiles
-![t42](/assets/images/2025-05-08/t42.png "t42")
-
-
 ### 44 Tiles
 ![t44](/assets/images/2025-05-08/t44.png "t44")
-
-
-### 45 Tiles
-![t45](/assets/images/2025-05-08/t45.png "t45")
 
 
 ### 48 Tiles
@@ -118,55 +130,38 @@ In the table, the entries are the number of tiles needed, which are then referen
 ![t54](/assets/images/2025-05-08/t54.png "t54")
 
 
-### 55 Tiles
-![t55](/assets/images/2025-05-08/t55.png "t55")
-
-
-### 64 Tiles
-![t64](/assets/images/2025-05-08/t64.png "t64")
-
-
 ### 66 Tiles
 ![t66](/assets/images/2025-05-08/t66.png "t66")
 
 
-### 70 Tiles
-![t70](/assets/images/2025-05-08/t70.png "t70")
+### 68 Tiles
+![t68](/assets/images/2025-05-08/t68.png "t68")
 
 
 ### 72 Tiles
 ![t72](/assets/images/2025-05-08/t72.png "t72")
 
 
-### 80 Tiles
-![t80](/assets/images/2025-05-08/t80.png "t80")
+### 76 Tiles
+![t76](/assets/images/2025-05-08/t76.png "t76")
 
 
-### 88 Tiles
-![t88](/assets/images/2025-05-08/t88.png "t88")
+### 84 Tiles
+![t84](/assets/images/2025-05-08/t84.png "t84")
 
 
 ### 92 Tiles
 ![t92](/assets/images/2025-05-08/t92.png "t92")
 
 
-### 108 Tiles
-![t108](/assets/images/2025-05-08/t108.png "t108")
-
-
-### 116 Tiles
-![t116](/assets/images/2025-05-08/t116.png "t116")
-
-
 ### 120 Tiles
 ![t120](/assets/images/2025-05-08/t120.png "t120")
 
 
-### 136 Tiles
-![t136](/assets/images/2025-05-08/t136.png "t136")
+### 164 Tiles
+![t164](/assets/images/2025-05-08/t164.png "t164")
 
 
-### 148 Tiles
-![t148](/assets/images/2025-05-08/t148.png "t148")
-
+### 320 Tiles
+![t320](/assets/images/2025-05-08/t320.png "t320")
 
