@@ -10,7 +10,7 @@ Contributions were received from George Sicherman (GS).
 
 ## Table of Results
 
-In the table, the entries are the number of tiles needed, which are then referenced in the list of tilings below. Round brackets indicate that this tiling was already isolated in [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html), so refer back to that page to see the tiling. Tilings with hexomino #1, are a special case. These tilings are formed in a specific way, and pictures are not shown in the list below, nor in the table. To create such an isolated tiling, simply add bands of #1's across the tiling between each of the isolated tiles. Spaces in the table may indicate that a tiling is possible or impossible. Refer to [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html) to understand which. 
+In the table, the entries are the number of tiles needed, which are then referenced in the list of tilings below. Round brackets indicate that this tiling was already isolated in [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html), so refer back to that page to see the tiling. Spaces in the table may indicate that a tiling is possible or impossible. Refer to [Hexomino Pair Rectangles](https://sicherman.net/n6rect2/index.html) to understand which. 
 
 ![table](/assets/images/2025-05-08/table.png "table")
 
