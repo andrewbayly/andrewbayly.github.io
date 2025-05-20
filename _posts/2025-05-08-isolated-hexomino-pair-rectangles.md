@@ -122,6 +122,10 @@ In the table, the entries are the number of tiles needed, which are then referen
 ![t40](/assets/images/2025-05-08/t40.png "t40")
 
 
+### 42 Tiles
+![t42](/assets/images/2025-05-08/t42.png "t42")
+
+
 ### 44 Tiles
 ![t44](/assets/images/2025-05-08/t44.png "t44")
 
@@ -194,12 +198,8 @@ In the table, the entries are the number of tiles needed, which are then referen
 ![t92](/assets/images/2025-05-08/t92.png "t92")
 
 
-### 93 Tiles
-![t93](/assets/images/2025-05-08/t93.png "t93")
-
-
-### 100 Tiles
-![t100](/assets/images/2025-05-08/t100.png "t100")
+### 96 Tiles
+![t96](/assets/images/2025-05-08/t96.png "t96")
 
 
 ### 116 Tiles
@@ -216,6 +216,10 @@ In the table, the entries are the number of tiles needed, which are then referen
 
 ### 140 Tiles
 ![t140](/assets/images/2025-05-08/t140.png "t140")
+
+
+### 160 Tiles
+![t160](/assets/images/2025-05-08/t160.png "t160")
 
 
 ### 168 Tiles
