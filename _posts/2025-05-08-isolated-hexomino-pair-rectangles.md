@@ -14,7 +14,6 @@ In the table, the entries are the number of tiles needed, which are then referen
 
 ![table](/assets/images/2025-05-08/table.png "table")
 
-
 ### 3 Tiles
 ![t3](/assets/images/2025-05-08/t3.png "t3")
 
