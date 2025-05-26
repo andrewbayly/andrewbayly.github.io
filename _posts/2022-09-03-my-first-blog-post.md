@@ -10,6 +10,9 @@ Fun things to talk about ...
 
 ![alt text 5](/assets/images/poly-5-1-1.png "Title")
 
+
+![table](/assets/images/table.html "Table")
+
 ---
 
 ### This is a header
