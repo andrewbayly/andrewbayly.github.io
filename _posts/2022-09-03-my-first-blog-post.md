@@ -11,10 +11,8 @@ Fun things to talk about ...
 ![alt text 5](/assets/images/poly-5-1-1.png "Title")
 
 
-![table](/assets/images/table.html "Table")
 
-
-{% include my-iframe.html url="https://andrewbayly.github.io/assets/images/table.html" width="800" height="450" %}
+{% include my-iframe.html url="https://andrewbayly.github.io/assets/images/table.html" width="2000" height="800" %}
 
 ---
 
