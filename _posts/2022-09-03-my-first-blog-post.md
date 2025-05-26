@@ -12,7 +12,7 @@ Fun things to talk about ...
 
 
 
-{% include my-iframe.html url="https://andrewbayly.github.io/assets/images/table.html" width="2000" height="800" %}
+{% include my-iframe.html url="https://andrewbayly.github.io/assets/images/table.html" width="2000" height="1000" %}
 
 ---
 
