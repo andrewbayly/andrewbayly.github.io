@@ -13,6 +13,9 @@ Fun things to talk about ...
 
 ![table](/assets/images/table.html "Table")
 
+
+{% include my-iframe.html url="https://andrewbayly.github.io/assets/images/table.html" width="800" height="450" %}
+
 ---
 
 ### This is a header
