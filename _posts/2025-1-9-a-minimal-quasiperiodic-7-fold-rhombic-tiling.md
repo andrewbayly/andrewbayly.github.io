@@ -10,7 +10,7 @@ The prototiles for the tiling are as in the following diagram.
 
 ![rules](/assets/images/2025-1-9/rules.png "rules")
 
-Looking at the prototiles, notice how most of the edges are made from two A tiles separated by a C tile. Special substitution rules are used which are described below.
+Looking at the prototiles, notice how most of the edges are made from two A tiles separated by a C tile. Special substitution rules are used which are described below. Non-standard substitution rules are used to minimize the number of prototiles. These could be transformed to standard substitution rules, but this would increase the number of prototiles needed.
 
 
 ## Substitution Rules
