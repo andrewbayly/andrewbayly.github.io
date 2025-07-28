@@ -38,9 +38,9 @@ The proof consists of the following sections:
 
 ## Uniform Recurrence
 
-Uniform recurrence occurs because of the appearance at each level of florets. A floret is a set of $7$ A tiles meeting at an acute vertex in the center of the floret. Within a floret, the top of each tile is at the center, which leads in turn to a region of the tiling with $7$-fold symmetry.
+Uniform recurrence occurs because of the appearance at each level of florets. A floret is a set of $7$ B tiles meeting at an acute vertex in the center of the floret. Within a floret, the top of each tile is at the center, which leads in turn to a region of the tiling with $7$-fold symmetry.
 
-It can be seen from the digram of the prototiles, that each tile contains B tiles. Within a B tile there is a region like the one shown here: 
+It can be seen from the diagram of the prototiles, that each tile contains B tiles. Within a B tile there is a region like the one shown here: 
 
 ![starting-floret](/assets/images/2025-1-9/starting-floret.png "starting-floret")
 
