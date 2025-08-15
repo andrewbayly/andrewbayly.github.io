@@ -14,7 +14,11 @@ A 12-fold Pure SVT with dodecagons as vertices. Note how, as the inflation proce
 
 ### Substition Rule
 
+![rules1](/assets/images/2025-08-12/rules1.png "rules")
+
 ### Patch
+
+![patch1](/assets/images/2025-08-12/patch1.png "patch")
 
 ## Octagon-Crescent
 
@@ -22,7 +26,11 @@ An 8-fold Hybrid SVT with octagons as vertices, and squares on the edges. Choosi
 
 ### Substition Rule
 
+![rules2](/assets/images/2025-08-12/rules2.png "rules")
+
 ### Patch
+
+![patch2](/assets/images/2025-08-12/patch2.png "patch")
 
 ## Bowtie-Hexagon-Decagon
 
@@ -30,8 +38,11 @@ A 10-fold Hybrid SVT with decagons as vertices. Note how a bow-tie shape is requ
 
 ### Substition Rule
 
+![rules3](/assets/images/2025-08-12/rules3.png "rules")
+
 ### Patch
 
+![patch3](/assets/images/2025-08-12/patch3.png "patch")
   
 
 
