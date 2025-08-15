@@ -26,7 +26,7 @@ An 8-fold Hybrid SVT with octagons as vertices, and squares on the edges. Choosi
 
 ## Bowtie-Hexagon-Decagon
 
-An 10-fold Hybrid SVT with decagons as vertices. Note how a bow-tie shape is required when three decagons come together, and further note that the bow-tie prototile is expanded by the edge tiles so that the central two decagons meet at an edge. If the tiling were smaller, these decagons would overlap, which is why a Hybrid SVT is needed in the 10-fold case.
+A 10-fold Hybrid SVT with decagons as vertices. Note how a bow-tie shape is required when three decagons come together, and further note that the bow-tie prototile is expanded by the edge tiles so that the central two decagons meet at an edge. If the tiling were smaller, these decagons would overlap, which is why a Hybrid SVT is needed in the 10-fold case.
 
 ### Substition Rule
 
