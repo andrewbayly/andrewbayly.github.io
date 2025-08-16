@@ -12,7 +12,7 @@ I have found several Hybrid SVTs. The first is an 8-fold case (called "Octagon-C
 
 A 12-fold Pure SVT with dodecagons as vertices. Note how, as the inflation proceeds, every vertex becomes a dodecagon, which in turn becomes a patch with local 12-fold symmetry.
 
-### Substition Rule
+### Substitution Rule
 
 ![rules1](/assets/images/2025-08-12/rules1.png "rules")
 
@@ -24,7 +24,7 @@ A 12-fold Pure SVT with dodecagons as vertices. Note how, as the inflation proce
 
 An 8-fold Hybrid SVT with octagons as vertices, and squares on the edges. Choosing the crescent as the third tile-shape keeps the prototile count down in this tiling. 
 
-### Substition Rule
+### Substitution Rule
 
 ![rules2](/assets/images/2025-08-12/rules2.png "rules")
 
@@ -36,7 +36,7 @@ An 8-fold Hybrid SVT with octagons as vertices, and squares on the edges. Choosi
 
 A 10-fold Hybrid SVT with decagons as vertices. Note how a bow-tie shape is required when three decagons come together, and further note that the bow-tie prototile is expanded by the edge tiles so that the central two decagons meet at an edge. If the tiling were smaller, these decagons would overlap, which is why a Hybrid SVT is needed in the 10-fold case.
 
-### Substition Rule
+### Substitution Rule
 
 ![rules3](/assets/images/2025-08-12/rules3.png "rules")
 
