@@ -18,13 +18,14 @@ In this example there are four prototiles: square, triangle, dodecagon, and boat
 
 Note that all the prototiles except the triangle are surrounded by boats, making them Give edges. The triangle is surrounded by Take edges. Validating this tiling is as simple as observing that all occurrences of triangles within the prototiles occur within the interior, and are always surrounded by other tiles with Give edges. Validating this tiling is quite straightforward, however with some tilings a good deal of effort must go into proving validity.
 
-## Rules
+### Rules
 
-** Image of Rules **
+![rules](/assets/images/2025-10-25/rules.png "rules")
 
-## Patch
+### Patch
 
-** Image of Patch **
+![patch](/assets/images/2025-10-25/patch.png "patch")
+
 
 ## Comparison with SQT
 
@@ -32,11 +33,11 @@ As indicated above the resulting tiling is not necessarily quasiperiodic, but sh
 
 
 
-| Property                          | Standard Quasiperiodic Tiling (SQT)             | GAT System                         | Status    |
+| Property                          | Standard Quasiperiodic Tiling (SQT)             | GAT System                                             | Status    |
 |-----------------------------------|-------------------------------------------------|--------------------------------------------------------|-----------|
 | Self-Similarity                   | ✓ (Defined by substitution σ)                   | ✓ (Defined by substitution σ)                          | KEPT      |
 | Prototile Inflation (λ)           | ✓ (Always a single λ&gt;1)                      | ✓ (Always a single λ&gt;1)                             | KEPT      |
-| Aperiodic Rotational Symmetry     | ✓ (E.g., 5-fold, 10-fold, 12-fold)              | ✓ (Observed in known tilings)                | KEPT      |
+| Aperiodic Rotational Symmetry     | ✓ (E.g., 5-fold, 10-fold, 12-fold)              | ✓ (Observed in known tilings)                          | KEPT      |
 | Uniform Recurrence (Repetitivity) | ✓ (Every patch recurs infinitely often)         | Likely ✓ (Due to the deterministic Give/Take skeleton) | KEPT      |
 | Tile Frequencies                  | ✓ (Converge to the M eigenvector)               | ✓ (Converge to the M eigenvector)                      | KEPT      |
 | Local Consistency                 | ✓ (No gaps/overlaps)                            | ✓ (Enforced by Take/Take prohibition)                  | KEPT      |
