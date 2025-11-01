@@ -6,7 +6,7 @@ Our discovery is that the physics of the **Standard Wireworld** ruleset allows a
 
 We demonstrate this by building an **AND-NOT** gate ($A \land \neg B$), a known universal gate, using only **two $\text{XOR}$ primitives** and simple conductive wires (delay lines).
 
-
+![AND-NOT](/assets/images/2025-11-01/AND_NOT.png "AND-NOT")
 
 ## The Minimal Universal Circuit
 
