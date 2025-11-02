@@ -127,8 +127,6 @@ The following analysis demonstrates that the output of $\mathbf{G_2}$ correctly 
 #### **Detailed Proof of Critical Cases:**
 
 
-#### Figure 3: Time-Step Proof of $M_{\text{XOR}}$ Cancellation
-Time-step sequence demonstrating the critical **synchronous cancellation** ($1 \oplus 1 \rightarrow 0$) within the Multigate ($\mathbf{M}$) in the $M_{\text{XOR}}$ mode. Panel (1) shows Electron Heads ($\mathbf{H}$) arriving synchronously at time $t$. Panel (2) illustrates the collision and annihilation at the central junction at time $t+k$. Panel (3) shows that the output remains LOW (Conductor/Empty) at $t+k+1$, confirming the destruction of both signals, which is essential for the $\neg B$ logic in the $\text{AND-NOT}$ proof.
 
 
 
@@ -139,6 +137,13 @@ Time-step sequence demonstrating the critical **synchronous cancellation** ($1 \
 2.  **Case $\mathbf{(A=1, B=1)}$: $A \land \neg B \Rightarrow 0$**
     * $\mathbf{G_1} (M_{\text{OR}})$: $B_{G1}=1$ (early), $A=1$ (late). The $M_{\text{OR}}$ table yields **B**. The output signal is the $\mathbf{B}$ signal, having blocked $\mathbf{A}$.
     * $\mathbf{G_2} (M_{\text{XOR}})$: $G_1(\text{out}) = B$, $B_{G2}=1$. Both inputs are **synchronous $\mathbf{B}$ signals**. The $M_{\text{XOR}}$ table (1 vs. 1) yields **0** (annihilation). Output is $\mathbf{0}$. **(Correct)**
+
+
+#### Figure 3: Time-Step Proof of $M_{\text{XOR}}$ Cancellation
+Time-step sequence demonstrating the critical **synchronous cancellation** ($1 \oplus 1 \rightarrow 0$) within the Multigate ($\mathbf{M}$) in the $M_{\text{XOR}}$ mode. Panel (1) shows Electron Heads ($\mathbf{H}$) arriving synchronously at time $t$. Panel (2) illustrates the collision and annihilation at the central junction at time $t+k$. Panel (3) shows that the output remains LOW (Conductor/Empty) at $t+k+1$, confirming the destruction of both signals, which is essential for the $\neg B$ logic in the $\text{AND-NOT}$ proof.
+
+
+
 
 The successful operation in Case 2 confirms that the Multigate circuit uses the $\mathbf{G_1}$ $M_{\text{OR}}$ mode to enforce the $\neg B$ logic (by blocking $A$ only when $B$ is present), and the $\mathbf{G_2}$ $M_{\text{XOR}}$ mode to perform the final $\text{AND}$ logic via **signal cancellation**.
 
