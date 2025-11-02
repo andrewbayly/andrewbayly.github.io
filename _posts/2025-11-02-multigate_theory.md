@@ -49,6 +49,12 @@ This formal definition of the Standard Wireworld ruleset establishes the physics
 
 The proof for functional completeness relies on a single, compact component—the **Multigate ($\mathbf{M}$)**—constructed from a specific, small conductor geometry that exhibits dual functionality based on the precise **temporal synchronization** of its inputs. The Multigate is the single universal primitive in this theory.
 
+
+#### Figure 1: The Multigate ($\mathbf{M}$) Primitive Geometry
+Geometric structure of the Multigate ($\mathbf{M}$) primitive in Standard Wireworld. The component is deliberately constructed to be **symmetrical** with respect to its inputs, yet its **temporal behavior** (Mode $M_{\text{XOR}}$ or $M_{\text{OR}}$) is determined solely by the precise timing of the incoming signals at inputs A and B.
+
+
+
 ### 3.1 The Multigate Theory: Modes of Operation
 
 The Multigate takes two inputs, $A$ and $B$, and operates in two distinct modes, $M_{\text{XOR}}$ and $M_{\text{OR}}$. The mode is determined by the intentional **timing offset** introduced by the surrounding signal delay lines. To formally capture the physics of signal flow and inhibition, we use a **modified truth table** where the output is not simply a Boolean '1', but the **identity of the signal ($A$ or $B$)** that successfully passes through, thus defining the output's timing.
@@ -94,6 +100,12 @@ Functional completeness is established by demonstrating the construction of a kn
 
 $$\text{AND-NOT}(A, B) = ((A \ M_{\text{OR}} \ B) \ M_{\text{XOR}} \ B)$$
 
+
+#### Figure 2: The Universal $\text{AND-NOT}$ Circuit
+The complete Universal $\text{AND-NOT}$ circuit, constructed using only two Multigates and signal delay lines. Gate $\mathbf{G_1}$ operates in $M_{\text{OR}}$ mode (asynchronous blocking), and Gate $\mathbf{G_2}$ operates in $M_{\text{XOR}}$ mode (synchronous cancellation). The circuit visually represents the minimal logical identity: $\text{AND-NOT}(A, B) = ((A \ M_{\text{OR}} \ B) \ M_{\text{XOR}} \ B)$.
+
+
+
 ### 4.1 Circuit Implementation
 
 The circuit requires two Multigates ($\mathbf{M}$) labeled $\mathbf{G_1}$ and $\mathbf{G_2}$, and the signal $B$ must be split into two paths ($B_{G1}$ and $B_{G2}$) using a trivial wire fork. 
@@ -113,6 +125,12 @@ The following analysis demonstrates that the output of $\mathbf{G_2}$ correctly 
 | **1** | **1** | $M_{\text{OR}}$ | B | $M_{\text{XOR}}$ | **0** | **0** |
 
 #### **Detailed Proof of Critical Cases:**
+
+
+#### Figure 3: Time-Step Proof of $M_{\text{XOR}}$ Cancellation
+Time-step sequence demonstrating the critical **synchronous cancellation** ($1 \oplus 1 \rightarrow 0$) within the Multigate ($\mathbf{M}$) in the $M_{\text{XOR}}$ mode. Panel (1) shows Electron Heads ($\mathbf{H}$) arriving synchronously at time $t$. Panel (2) illustrates the collision and annihilation at the central junction at time $t+k$. Panel (3) shows that the output remains LOW (Conductor/Empty) at $t+k+1$, confirming the destruction of both signals, which is essential for the $\neg B$ logic in the $\text{AND-NOT}$ proof.
+
+
 
 1.  **Case $\mathbf{(A=1, B=0)}$: $A \land \neg B \Rightarrow 1$**
     * $\mathbf{G_1} (M_{\text{OR}})$: $B_{G1}=0$, $A=1$. The $M_{\text{OR}}$ table yields **A**. The signal $A$ passes through $\mathbf{G_1}$.
