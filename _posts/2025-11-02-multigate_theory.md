@@ -50,7 +50,7 @@ This formal definition of the Standard Wireworld ruleset establishes the physics
 The proof for functional completeness relies on a single, compact component—the **Multigate ($\mathbf{M}$)**—constructed from a specific, small conductor geometry that exhibits dual functionality based on the precise **temporal synchronization** of its inputs. The Multigate is the single universal primitive in this theory.
 
 
-| ![alt text 5](/assets/images/poly-5-1-1.png "Title") | 
+| ![Figure 1](/assets/images/2025-11-02/fig_1.png "Figure 1") | 
 |:--:| 
 | **Figure 1: The Multigate ($\mathbf{M}$) Primitive Geometry.** Geometric structure of the Multigate ($\mathbf{M}$) primitive in Standard Wireworld. The component is deliberately constructed to be **symmetrical** with respect to its inputs, yet its **temporal behavior** (Mode $M_{\text{XOR}}$ or $M_{\text{OR}}$) is determined solely by the precise timing of the incoming signals at inputs A and B. |
 
@@ -101,7 +101,7 @@ Functional completeness is established by demonstrating the construction of a kn
 
 $$\text{AND-NOT}(A, B) = ((A \ M_{\text{OR}} \ B) \ M_{\text{XOR}} \ B)$$
 
-| ![alt text 5](/assets/images/poly-5-1-1.png "Title") | 
+| ![Figure 2](/assets/images/2025-11-02/fig_2.png "Figure 2") | 
 |:--:| 
 | **Figure 2: The Universal $\text{AND-NOT}$ Circuit.** The complete Universal $\text{AND-NOT}$ circuit, constructed using only two Multigates and signal delay lines. Gate $\mathbf{G_1}$ operates in $M_{\text{OR}}$ mode (asynchronous blocking), and Gate $\mathbf{G_2}$ operates in $M_{\text{XOR}}$ mode (synchronous cancellation). The circuit visually represents the minimal logical identity: $\text{AND-NOT}(A, B) = ((A \ M_{\text{OR}} \ B) \ M_{\text{XOR}} \ B)$.|
 
@@ -139,7 +139,7 @@ The following analysis demonstrates that the output of $\mathbf{G_2}$ correctly 
     * $\mathbf{G_1} (M_{\text{OR}})$: $B_{G1}=1$ (early), $A=1$ (late). The $M_{\text{OR}}$ table yields **B**. The output signal is the $\mathbf{B}$ signal, having blocked $\mathbf{A}$.
     * $\mathbf{G_2} (M_{\text{XOR}})$: $G_1(\text{out}) = B$, $B_{G2}=1$. Both inputs are **synchronous $\mathbf{B}$ signals**. The $M_{\text{XOR}}$ table (1 vs. 1) yields **0** (annihilation). Output is $\mathbf{0}$. **(Correct)**
 
-| ![alt text 5](/assets/images/poly-5-1-1.png "Title") | 
+| ![Figure 3](/assets/images/2025-11-02/fig_3.png "Figure 3") |  
 |:--:| 
 | **Figure 3: Time-Step Proof of $M_{\text{XOR}}$ Cancellation.** Time-step sequence demonstrating the critical **synchronous cancellation** ($1 \oplus 1 \rightarrow 0$) within the Multigate ($\mathbf{M}$) in the $M_{\text{XOR}}$ mode. Panel (1) shows Electron Heads ($\mathbf{H}$) arriving synchronously at time $t$. Panel (2) illustrates the collision and annihilation at the central junction at time $t+k$. Panel (3) shows that the output remains LOW (Conductor/Empty) at $t+k+1$, confirming the destruction of both signals, which is essential for the $\neg B$ logic in the $\text{AND-NOT}$ proof.|
 
