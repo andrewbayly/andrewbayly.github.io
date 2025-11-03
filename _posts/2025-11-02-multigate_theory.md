@@ -170,7 +170,21 @@ The Multigate Theory opens several avenues for future research, centered on form
 * **Application to Other CAs:** Exploring whether similar time-dependent primitives and logical identities exist within other universal cellular automata (e.g., specific variants of the von Neumann or Codd models) where signal timing is a controllable factor. This would extend the Multigate Theory to a broader class of physical computing systems.
 
 
+## 📚 References
 
+[1] A. M. Turing, "On computable numbers, with an application to the *Entscheidungsproblem*," *Proc. London Math. Soc.*, vol. 2, no. 42, pp. 230–265, 1937.
+
+[2] J. von Neumann and A. W. Burks, *Theory of Self-ReProducing Automata*. Urbana, IL, USA: University of Illinois Press, 1966.
+
+[3] B. Silverman, "WireWorld," originally in *Phantom Fish Tank* (1987). Cited via: S. Wolfram, *A New Kind of Science*. Champaign, IL, USA: Wolfram Media, 2002.
+
+[4] E. Pegg Jr., "Math Games: WireWorld Multiplication," *MathPuzzle.com*, May 2004. [Online]. Available: https://www.mathpuzzle.com/MAA/20-WireWorld/
+
+[5] K. Scherer, "WireWorld Gates and Gadgets," *Wolfram Demonstrations Project*, 2007. [Online]. Available: https://demonstrations.wolfram.com/WireWorldGatesAndGadgets/
+
+[6] M. Cook, "Universality in Elementary Cellular Automata," *Complex Systems*, vol. 15, no. 1, pp. 1–40, 2004.
+
+[7] T. Neary, "Small universal Turing machines," Ph.D. dissertation, National University of Ireland, Maynooth, Ireland, 2009.
 
 
 
