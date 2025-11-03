@@ -168,3 +168,63 @@ The Multigate Theory opens several avenues for future research, centered on form
 * **Integration and Scalability:** While we have proven the existence of the minimal $\text{AND-NOT}$ circuit, a necessary next step is to demonstrate its **scalability**. Future work should focus on constructing complex sequential logic, such as a $\text{D}$-type flip-flop or a basic full adder, using only the Multigate and delay lines. This will formally validate the Multigate's function as a practical, cascading primitive for large-scale computation in Standard Wireworld.
 * **Optimal Geometry and Stability:** Formal analysis is needed to precisely define the Multigate's constraints. This research would focus on proving the minimum required size (cell count) and stability requirements for both the $M_{\text{XOR}}$ cancellation and the $M_{\text{OR}}$ blocking modes within the strict rules of Standard Wireworld.
 * **Application to Other CAs:** Exploring whether similar time-dependent primitives and logical identities exist within other universal cellular automata (e.g., specific variants of the von Neumann or Codd models) where signal timing is a controllable factor. This would extend the Multigate Theory to a broader class of physical computing systems.
+
+
+
+
+
+
+## 📈 Appendix: Multigate Coordinate Verification
+
+This appendix provides the precise geometric and temporal data required to formally verify the construction and operation of the Multigate ($\mathbf{M}$) primitive and the Universal $\text{AND-NOT}$ circuit within Standard Wireworld. 
+
+The geometric data for the Multigate is defined relative to the bottom-left corner of the Multigate's bounding box, which serves as the origin $(\mathbf{0}, \mathbf{0})$. All coordinates are non-negative integers.
+
+### 1. Multigate Primitive ($\mathbf{M}$) Geometry
+
+| Element | Description | Coordinates (Relative to Bottom-Left Corner) |
+| :--- | :--- | :--- |
+| **Conductor Cells** | All $(x, y)$ cells that form the conductive path. | (1,0) (2,0) (3,0) (0,1) (1,1) (3,1) (4,1) (1,2) (3,2) (1,3) (3,3) (2,4) |
+| **Input A Port** | The final Conductor cell where input signal $A$ arrives. | (0,1) |
+| **Input B Port** | The final Conductor cell where input signal $B$ arrives. | (4,1) |
+| **Reaction Site** | The cell(s) where the Head-Head annihilation physically occurs. | (1,3) (2,3) (3,3) |
+| **Output Port Start** | The first Conductor cell of the wire leading away from the gate. | (2,4) |
+
+
+### 2. Delay Line Specification
+
+This table defines the precise time (in ticks) and physical length (in cells) for the four critical paths within the $\text{AND-NOT}$ circuit.
+
+| Delay Path | Description | Required Time (Ticks) | Path Length (Cells) |
+| :--- | :--- | :--- | :--- |
+| **Path A to $G_1$** | The path from the overall circuit input $A$ to Multigate $G_1$. | $T_A = 6$ | $L_A = 6$ |
+| **Path $B_{G1}$ to $G_1$** | The path from the overall circuit input $B$ (via the fork) to Multigate $G_1$. | $T_{B1} = 5$ | $L_{B1} = 5$ |
+| **Path $G_1$ to $G_2$** | The path from the output of $G_1$ to the input of $G_2$. | $T_{G1-G2} = 2$ | $L_{G1-G2} = 2$ |
+| **Path $B_{G2}$ to $G_2$** | The path from the overall circuit input $B$ (via the fork) to Multigate $G_2$. | $T_{B2} = 10$ | $L_{B2} = 10$ |
+
+
+### 3. Verification of Timing Requirements
+
+The following equations must hold true for the $\text{AND-NOT}$ circuit to operate correctly:
+
+| Requirement | Description | Condition |
+| :--- | :--- | :--- |
+| **$M_{\text{OR}}$ Mode ($G_1$)** | Input A must arrive one tick later than $B_{G1}$ (Asynchronous). | $T_A = T_{B1} + 1$ |
+| **$M_{\text{XOR}}$ Mode ($G_2$)** | The total elapsed time for the signal via $G_1$ must equal the time for the signal via $B_{G2}$ (Cancellation). | $T_{B1} + T_{G1-\text{out}} + T_{G1-G2} = T_{B2}$ |
+
+*Note: $T_{G1-\text{out}}$ is the fixed time (in ticks) required for a signal to pass through the Multigate $G_1$. This value is determined by the specific geometry of the $\mathbf{M}$ primitive and is equal to $\mathbf{3}$ ticks.*
+
+
+### 4. Step-by-Step Proof of $M_{\text{XOR}}$ Cancellation (Case: $A=1, B=1$ at $G_2$)
+
+This time-series formally verifies the $M_{\text{XOR}}$ mode's cancellation function at gate $G_2$. The time is measured relative to the moment the signals synchronously arrive at the gate inputs ($t_0$).
+
+| Time (t) | Input State | State of Reaction Region (Multi-Cell) | State at Output Start Port $(x_{\text{out}}, y_{\text{out}})$ | Notes |
+| :---: | :---: | :---: | :---: | :--- |
+| $\mathbf{t_0}$ | $H$ arrives from $G_1$ and $B_{G2}$ | Conductor | Conductor | Signals are synchronous at the gate inputs. |
+| $\mathbf{t_0 + 1}$ | Signals enter the geometry | Conductor | Conductor | Signals move into the immediate reaction path. |
+| $\mathbf{t_0 + 2}$ | Head Block Forms | $\mathbf{3 \times H}$ (Transient Block) | Conductor | The central block of Electron Heads forms due to the collision geometry. |
+| $\mathbf{t_0 + 3}$ | Block Collapse/Clearing | $\mathbf{ 3 \times T}$ (Decay) | Conductor | The block begins to collapse back into Conductor/Tail states. |
+| $\mathbf{t_0 + k}$ | Final Output Check | Conductor/Empty | **Conductor/Empty (0)** | The final stable state confirms no signal propagated. (k = 3) |
+
+
