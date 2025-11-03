@@ -1,5 +1,15 @@
 # Temporal Logic and an Alternative Basis for Universality in Standard Wireworld: The Multigate ($\mathbf{M}$) Theory
 
+**Author:** Andrew Bayly
+
+**Affiliation:** Independent Researcher, 124 Marsilly Street, San Francisco, CA 94112, USA
+
+---
+
+**Keywords:** Cellular Automata, Wireworld, Turing Completeness, Temporal Logic, Unconventional Computing, Minimal Basis.
+
+---
+
 
 ### Abstract
 
