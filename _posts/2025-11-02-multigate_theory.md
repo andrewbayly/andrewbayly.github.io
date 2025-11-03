@@ -170,6 +170,11 @@ The Multigate Theory opens several avenues for future research, centered on form
 * **Application to Other CAs:** Exploring whether similar time-dependent primitives and logical identities exist within other universal cellular automata (e.g., specific variants of the von Neumann or Codd models) where signal timing is a controllable factor. This would extend the Multigate Theory to a broader class of physical computing systems.
 
 
+## 🙏 Acknowledgments
+
+The author would like to acknowledge **Gemini, a Large Language Model built by Google**, for its assistance in refining the paper’s structure, improving the technical clarity of the prose, and ensuring adherence to academic formatting standards. The conceptual discoveries, proofs, and physical designs described herein remain the sole work of the author.
+
+
 ## 📚 References
 
 [1] A. M. Turing, "On computable numbers, with an application to the *Entscheidungsproblem*," *Proc. London Math. Soc.*, vol. 2, no. 42, pp. 230–265, 1937.
