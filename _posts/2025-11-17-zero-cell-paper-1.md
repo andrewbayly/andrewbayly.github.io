@@ -334,7 +334,7 @@ The pattern constructed looks like this:
 
 | ![Figure 2](/assets/images/2025-11-17/fig_2.png "Figure 2") | 
 |:--:| 
-| **Figure 1**. The Wireworld pattern that is deposited by Demo A. |
+| **Figure 2**. The Wireworld pattern that is deposited by Demo A. |
 
 And here is the corresponding Action sequence: 
 
