@@ -302,6 +302,12 @@ At a high level, the operation of the ZC-ZR UC can be regarded as following thre
 
 ### 4.1 The ZC-ZR UC Blueprint
 
+| ![Figure 1](/assets/images/2025-11-02/fig_1.png "Figure 1") | 
+|:--:| 
+| **Figure 1**. The machine at rest. |
+
+
+
 Figure 1 shows the machine at rest. (Demo A)
 
 **TODO: Picture showing the 62-unit tape loop, with a key detailing the State types.**
