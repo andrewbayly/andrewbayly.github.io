@@ -302,15 +302,9 @@ At a high level, the operation of the ZC-ZR UC can be regarded as following thre
 
 ### 4.1 The ZC-ZR UC Blueprint
 
-| ![Figure 1](/assets/images/2025-11-02/fig_1.png "Figure 1") | 
+| ![Figure 1](/assets/images/2025-11-17/fig_1.png "Figure 1") | 
 |:--:| 
-| **Figure 1**. The machine at rest. |
-
-
-
-Figure 1 shows the machine at rest. (Demo A)
-
-**TODO: Picture showing the 62-unit tape loop, with a key detailing the State types.**
+| **Figure 1**. The machine at rest (Demo A). |
 
 ### 4.2 Proof of Self-Replication
 
@@ -338,7 +332,9 @@ The following is a step-by-step description of the sequence required to deposit 
 
 The pattern constructed looks like this: 
 
-**TODO Show picture of a Wireworld pattern that is deposited by Demo A** 
+| ![Figure 2](/assets/images/2025-11-17/fig_2.png "Figure 2") | 
+|:--:| 
+| **Figure 1**. The Wireworld pattern that is deposited by Demo A. |
 
 And here is the corresponding Action sequence: 
 
