@@ -300,6 +300,8 @@ At a high level, the operation of the ZC-ZR UC can be regarded as following thre
 
 ## 4. Results: Proofs of Universal Construction and Annihilation
 
+Note: While the most stringent interpretation of Universal Construction (UC) requires the machine to be capable of constructing any quiescent pattern composed of all 15 states in the medium, the accepted standard in modern CA research is to demonstrate the ability to construct a Turing-Complete (TC) payload [6]. Since the ZC-ZR UC can construct any arbitrary Wireworld pattern, and Wireworld is known to be TC, the machine is proven to meet the standard criterion for Universal Construction.
+
 ### 4.1 The ZC-ZR UC Blueprint
 
 | ![Figure 1](/assets/images/2025-11-17/fig_1.png "Figure 1") | 
@@ -408,10 +410,12 @@ We propose further work, investigating if a similar design can be implemented in
 
 [5] A. P. Goucher, "Fully self-directed replication". Complex Projective 4-Space, online:  https://cp4space.hatsya.com/2018/11/12/fully-self-directed-replication/ 12 November 2018.
 
+[6] E. F. Codd, *Cellular Automata*. Academic Press, 1968.
+
 
 ## Appendix 1
 
-The patterns (demo_A and demo_B ) and rule file are available online in Golly-compatible format: https://andrewbayly.github.io/ZC2.zip
+The patterns ( demo_A and demo_B ) and rule file are available online in Golly-compatible format: https://andrewbayly.github.io/ZC2.zip
 
 
 
