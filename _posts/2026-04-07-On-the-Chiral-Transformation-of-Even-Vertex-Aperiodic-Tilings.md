@@ -31,6 +31,10 @@ The answer is that it depends. In some cases Q' is a trivial modification of Q, 
 
 Having said that Q' is in a separate class, the relationship between Q' and Q is such that if Q has an an associated aperodic tileset, then there is also a corresponding aperiodic tileset for Q'. 
 
+Consider also the relationship between two tilings Q1 and Q2, where Q1 and Q2 are MLD. Note that the derived tilings may not be MLD. Specifically: If $Q_1$ and $Q_2$ are MLD, there exists a local mapping $M: Q_1 \to Q_2$. However, the transformation $\Phi$ requires a global parity bit $p \in \{0, 1\}$. To prove $Q_1'$ and $Q_2'$ are MLD, one must show that the mapping $M'(\Phi(Q_1, p)) = \Phi(Q_2, p)$ is strictly local. If the geometric expression of $p$ in $Q_1'$ does not provide sufficient local information to reconstruct the specific orientation of a tile in $Q_2'$, the MLD relationship is severed.
+
+We elaborate on this below, in the Examples, where P3 and HBS are considered (since they are MLD).
+
 ## Development
 
 While the theorem claims that Q' exists, it says nothing about how to construct the substitution rule. In this section, we describe a tool - Extended Substitution Tiling - that can be used to generate the rule for Q'. 
@@ -112,9 +116,9 @@ In P3' both tiles form S-shapes with distinct Left and Right forms, a total of 4
 [ Diagram: Rule T ] 
 [ Diagram: Patch ]
 
-#### Pentas
+#### HBS
 
-In Pentas' both tiles form S-shapes with distinct Left and Right forms, a total of 4 tile shapes. 
+In HBS' all tiles have Left and Right forms - a total of 6 tile shapes. Note that, as stated above, while P3 and HBS are MLD, P3' and HBS' are not MLD. 
 
 [ Diagram: Rule R ] 
 [ Diagram: Rule T ] 
