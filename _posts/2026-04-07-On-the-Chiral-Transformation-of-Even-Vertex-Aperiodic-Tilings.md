@@ -89,12 +89,12 @@ A note on naming: In what follows, X' will refer to the tiling generated from X,
 
 The tilings we consider below are summarized in the following table: 
 
-| Tiling  | Transformed Tiling Status |
-|---------|---------------------------|
-| P2      |  Trivial                  | 
-| P3      |  Distinct                 |
-| Pentas  |  Distinct                 | 
-| A5      |  Distinct                 |
+| Tiling  | Transformed Tiling Status | Vertex Counts |
+|---------|---------------------------|---------------|
+| P2      |  Trivial                  | 4, 4 (Kite/Dart) | 
+| P3      |  Distinct                 | 4, 4 (Rhombs) | 
+| HBS     |  Distinct                 | 6, 8, 10 (Hex/Boat/Star) | 
+| A5      |  Distinct                 | 4, 4 (Rhomb/Square) |
 
 #### P2
 
