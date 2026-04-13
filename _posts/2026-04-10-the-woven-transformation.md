@@ -6,9 +6,15 @@ For any aperiodic tileset $T$ with even-vertex coordination and a valid substitu
 
 ## Demonstration with Penrose P3
 
-[ Picture of original tileset and woven tileset ] 
+| ![Patch](/assets/images/2026-04-10/patch.png "Patch") | 
+|:--:| 
+| **Patch.** The patch shows the tiling after the woven transformation has been applied. Note how each of the rhomb shapes appears in two colors across the tiling. |
 
-[ Picture of the woven tiling patch ] 
+
+| ![Tilesets](/assets/images/2026-04-10/tilesets.png "Tilesets") | 
+|:--:| 
+| **Tilesets.** This image shows the tilesets before (left) and after the woven transformation (right). The matchin rule is that integers on either side of an edge must sum to zero. |
+
 
 Note that the original P3 is "phase-blind". By injecting a bipartite parity, we only need to "flip" the markings on one pair of tile types to force the global phase.
 
