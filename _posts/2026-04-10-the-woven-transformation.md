@@ -13,7 +13,7 @@ For any aperiodic tileset $T$ with even-vertex coordination and a valid substitu
 
 | ![Tilesets](/assets/images/2026-04-10/tilesets.png "Tilesets") | 
 |:--:| 
-| **Tilesets.** This image shows the tilesets before (left) and after the woven transformation (right). The matchin rule is that integers on either side of an edge must sum to zero. |
+| **Tilesets.** This image shows the tilesets before (left) and after the woven transformation (right). The matching rule is that integers on either side of an edge must sum to zero. |
 
 
 Note that the original P3 is "phase-blind". By injecting a bipartite parity, we only need to "flip" the markings on one pair of tile types to force the global phase.
