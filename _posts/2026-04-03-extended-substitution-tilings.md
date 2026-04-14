@@ -10,15 +10,15 @@ The example I've chosen to illustrate this concept is a tiling I call Hexagon Bo
 
 ### Recursive Rule
 
-[pic recursive rule]
+![Recursive Rule](/assets/images/2026-04-03/rules_R.png "Recursive Rule")
 
 ### Terminal Rule
 
-[pic terminal rule]
+![Terminal Rule](/assets/images/2026-04-03/rules_T.png "Terminal Rule")
 
 ### Patch
 
-[pic patch]
+![Patch](/assets/images/2026-04-03/patch.png "Patch")
 
 TODO: 
   - discuss pre-conditions
