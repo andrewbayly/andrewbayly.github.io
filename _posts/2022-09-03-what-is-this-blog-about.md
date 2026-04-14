@@ -1,33 +1,8 @@
-So, what am I going to write about? Pretty much, I'm going to write about things the that interest me... to name a few: 
+This blog is dedicated to my research interests which are: Tiling, Cellular Automata and Turing Completeness.
 
-* Tiling
-* Polyominoes
-* Polyhedra
-* Geometric Dissections
-* Minimal Surfaces ( and soap bubbles )
-* Cellular Automata
-* Esoteric Programming Languages
-* JavaScript
-* Raspberry PI
-* Emulation: BBC Micro / Commodore PET
-* P5.js
-* Rubik's Cube
+Within Tiling, I am especially interested in studying quasiperiodic tilings, discovering new tilings, and their associated aperiodic tilesets. Also, I am interested in developing new mathematical tools that enable the discovery of new tilings and tilesets.
 
-Many of these posts will be puzzles, and a few of them will be proofs of some kind. A lot of them will be about projects that I've worked on at home.
-Programming is what I do for a living, but I like doing it at home too. Most of this stuff is pretty nerdy, so it will help a lot if you're some kind of 
-nerd :)
+Within Cellular Automata, I am interested in developing minimal CA's that are Turing Complete, as well as developing Universal Constructors. 
 
-Some specific ideas for blog posts: 
-
-* Proving that the R-heximono may have irreptile order of 121 or more.
-* More irreptiles of the R-hexomino.
-* Irregular Irreptiles.
-* Irregular Rectifiable Polyominos.
-* How to create a Costa Surface Soap bubble.
-* Introducing Wireworld-1, a variant of Wireworld.
-* Building a computer in Wireworld-1.
-* DML - Directed Multigraph Language.
-* DML Addition Server. 
-* Rubik's Cube Simulator.
-
+I am also interested in Turing Completeness in general, for instance the Turing Completeness of Games. 
 
