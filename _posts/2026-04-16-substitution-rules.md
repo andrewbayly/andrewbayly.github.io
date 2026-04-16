@@ -27,7 +27,7 @@ We adopt the following notation:
 where $W$ is the Generalized Weave Operator, which generates a set of substitution rules, and hence tilings, given the following. $S$, the original substitution rule, $E$, the expansion factor, $C$, the cloning number, and $V$, the winding vector, where $E$ and $C$ are natural numbers and $V$ is a mapping $V: \{1, \dots, M\} \to \{0, \dots, C-1\}$, where $M$ is the number of child tiles in the expanded substitution $S^E$
 
 
-$W$ is defined as follows: Beginning with $S4, $S$ is applied to itself $E$ times, meaning that the new inflation factor is $S$ times the original inflation factor.
+$W$ is defined as follows: Beginning with $S$, $S$ is applied to itself $E$ times, meaning that the new inflation factor is $S$ times the original inflation factor.
 
 To preserve topological consistency under the operator $W$, the prototiles are endowed with an orientation vector, ensuring that the weaving is applied relative to the tile's local coordinate system.
 
