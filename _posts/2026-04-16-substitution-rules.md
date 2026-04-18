@@ -29,15 +29,15 @@ We adopt the following notation:
 where $W$ is the Generalized Weave Operator, which generates a set of substitution rules, and hence tilings, given the following. $S$, the original substitution rule, $E$, the expansion factor, $C$, the cloning number, and $V$, the winding vector, where $E$ and $C$ are natural numbers and $V$ is a mapping $V: \{1, \dots, M\} \to \{0, \dots, C-1\}$, where $M$ is the number of child tiles in the expanded substitution $S^E$
 
 
-$W$ is defined as follows: Beginning with $S$, $S$ is applied to itself $E$ times, meaning that if the original inflation factor was $\lambda$ the new inflation factor is $\lambda^S$.
+$W$ operates on the $E$-th iterate of $S$, meaning that if the original inflation factor was $\lambda$ the new inflation factor of the $E$-th iterate is $\lambda^E$.
 
 To preserve topological consistency under the operator $W$, the prototiles are endowed with an orientation vector, ensuring that the weaving is applied relative to the tile's local coordinate system.
 
 The tiles within the prototiles are marked with a number as follows. First the prototiles are arranged in order. Within this order, child tiles are organized by first selecting a central child tile if it exists, and then by angle theta ( from a fixed starting angle ), and then by r (distance from the origin).
 
-The prototiles within $S$ are then cloned $C$ times, marking the prototiles with new colors. We say that the prototiles form a matrix, with the original prototiles occupying the first column, and each succesive clone of prototiles occupying a subsequent column.
+The prototiles are then cloned $C$ times, marking the prototiles with new colors. We say that the prototiles form a matrix, with the original prototiles occupying the first column, and each succesive clone of prototiles occupying a subsequent column.
 
-Having cloned, and assigned colors, all relationships between prototiles and tiles are within a column. 
+Having cloned the prototiles all relationships between prototiles and tiles are within a column. By convention the protiles are colored according to their column, with the individual prototiles being indentified visually by both shape and color.
 
 The winding numbers are applied as follows: each tile numbered $i$ in column $j$ is replaced by the corresponding tile in column $(j + V[i]) \pmod C$.
 
