@@ -100,5 +100,5 @@ Having found these non-MLD companions, I naturally asked: are there any more? To
 
 ## Conclusion
 
-We have shown that the members of the class of even-vertex tilings permit, companions which, except of degenerate cases, are non-MLD with their originals. Likewise for tilesets, a non-MLD tileset exists.
+We have shown that the members of the class of even-vertex tilings permit companions which, except in degenerate cases, are non-MLD with their originals. Likewise for tilesets, a non-MLD tileset exists.
 
