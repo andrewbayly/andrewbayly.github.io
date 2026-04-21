@@ -62,7 +62,7 @@ For any even-vertex aperiodic tileset $T$, where there exists a substitution rul
  * Trivial Outcome: The tile-transition graph is disjoint (reflecting a tile is a choice, not a requirement).
  * Non-Trivial Outcome: The tile-transition graph is connected (reflecting a tile is a structural necessity).
 
-By tile-transition graph we mean the following. Within $S$, we create a vertex for each prototile. The edge $A -> B$ exists if the prototile $A$ includes the tile $B$.
+By tile-transition graph we mean the following. Within $S$, we create a vertex for each prototile. The edge $A \to B$ exists if the prototile $A$ includes the tile $B$.
 
 Proof ( by construction )
 
