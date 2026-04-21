@@ -64,7 +64,7 @@ For any even-vertex aperiodic tileset $T$, where there exists a substitution rul
 
 By tile-transition graph we mean the following. Within $S$, we create a vertex for each prototile. The edge $A \to B$ exists if the prototile $A$ includes the tile $B$.
 
-Proof ( by construction )
+### Proof ( by construction )
 
 To construct the new tileset: 
 
