@@ -116,8 +116,7 @@ We have shown that the members of the class of even-vertex tilings permit compan
 
 [5] B. Grünbaum and G. C. Shephard. *Tilings and Patterns*. W. H. Freeman and Company, New York, 1987.
 
-[6] M. Boyle and D. Sullivan. Bounded orbit equivalence and local derivability for self-similar systems. *Ergodic Theory and Dynamical Systems*, 11(1):1–25, 1991.  
-**DOI:** [10.1017/S014338570000602X](https://doi.org/10.1017/S014338570000602X)
+[6] M. Boyle and D. Sullivan. Bounded orbit equivalence and local derivability for self-similar systems. *Ergodic Theory and Dynamical Systems*, 11(1):1–25, 1991.
 
 
 
