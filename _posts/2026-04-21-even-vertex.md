@@ -6,11 +6,11 @@ This paper identifies a hidden topological property within the class of even-ver
 
 ## Background
 
-In the study of aperiodic tilings, mutual local derivability (mld) is used as a classifier. If two tilings are mld they are said to belong to the same mld class. If a tiling is discovered that is non-mld with existing known tilings, then it is thought of as a novel aperiodic tiling of the plane.
+In the study of aperiodic tilings, mutual local derivability (mld)[1] is used as a classifier. If two tilings are mld they are said to belong to the same mld class. If a tiling is discovered that is non-mld with existing known tilings, then it is thought of as a novel aperiodic tiling of the plane.
 
 A tiling $A$ is locally derivable from tiling $B$ if given a patch of the tiling of finite radius $r$, the tile that appears at the same place in $B$ can be derived from the tile that appears there in $A$. And vice versa.
 
-In this paper we focus on a particular class of tilings - even vertex tilings - where every tile in the tiling has an even number of vertices. The key finding is that, subject to certain preconditions, any such tiling has a non-mld companion. Examples of even-vertex tilings are Penrose P3, Hexagon-Boat-Star(HBS) and Ammann-Beenker(A5). We will use Penrose P3 throughout as a worked example. 
+In this paper we focus on a particular class of tilings - even vertex tilings - where every tile in the tiling has an even number of vertices. The key finding is that, subject to certain preconditions, any such tiling has a non-mld companion. Examples of even-vertex tilings are Penrose P3[3], Hexagon-Boat-Star(HBS), Ammann-Beenker(A5)[2] and Socolar[4]. We will use Penrose P3 throughout as a worked example. 
 
 ## Tiling
 
@@ -18,7 +18,7 @@ Formally we present the finding as a theorem:
 
 ### Theorem 1 
 
-Let $Q$ be a quasiperiodic tiling composed of tiles with an even number of vertices. There exists a transformation $\Phi$ that maps $Q$ to a distinct quasiperiodic tiling $Q'$ by applying a parity-dependent coloring to its faces, provided that the bipartite 2-coloring of the vertices of $Q$ is non-locally derivable from the vertex types.
+Let $Q$ be a quasiperiodic tiling composed of tiles with an even number of vertices[5]. There exists a transformation $\Phi$ that maps $Q$ to a distinct quasiperiodic tiling $Q'$ by applying a parity-dependent coloring to its faces, provided that the bipartite 2-coloring of the vertices of $Q$ is non-locally derivable from the vertex types.
 
 ### Proof
 
