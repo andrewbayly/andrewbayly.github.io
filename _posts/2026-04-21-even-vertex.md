@@ -102,3 +102,22 @@ Having found these non-MLD companions, I naturally asked: are there any more? To
 
 We have shown that the members of the class of even-vertex tilings permit companions which, except in degenerate cases, are non-MLD with their originals. Likewise for tilesets, a non-MLD tileset exists.
 
+### References
+
+[1] M. Baake and U. Grimm. *Aperiodic Order: Volume 1, Aperiodic Tilings and Quasicrystals*. Cambridge University Press, Cambridge, 2013.
+
+[2] R. Ammann, B. Grünbaum, and G. C. Shephard. Aperiodic tiles. *Discrete & Computational Geometry*, 8(1):1–25, 1992.  
+**DOI:** [10.1007/BF02293033](https://doi.org/10.1007/BF02293033)
+
+[3] R. Penrose. The role of aesthetics in pure and applied mathematical research. *Bulletin of the Institute of Mathematics and its Applications*, 10:266–271, 1974.
+
+[4] J. E. S. Socolar. Simple octagonal and dodecagonal quasicrystals. *Physical Review B*, 39(15):10519–10551, 1989.  
+**DOI:** [10.1103/PhysRevB.39.10519](https://doi.org/10.1103/PhysRevB.39.10519)
+
+[5] B. Grünbaum and G. C. Shephard. *Tilings and Patterns*. W. H. Freeman and Company, New York, 1987.
+
+[6] M. Boyle and D. Sullivan. Bounded orbit equivalence and local derivability for self-similar systems. *Ergodic Theory and Dynamical Systems*, 11(1):1–25, 1991.  
+**DOI:** [10.1017/S014338570000602X](https://doi.org/10.1017/S014338570000602X)
+
+
+
