@@ -96,7 +96,7 @@ Figure 2 shows the tileset derived from Penrose P3.
 
 ## Discussion
 
-Having found these non-MLD companions, I naturally asked: are there any more? To answer this question, I generalized the process of developing the substitution rules, and performed a computational search to find other solutions. I found either that the symmetry collapses, or if it doesn't collapse then the solution is MLD with either the original tiling or its companion. This suggests that this one parity-bit is all that is hidden in the original tiling.  
+Having found these non-MLD companions, I naturally asked: are there any more? To answer this question, I generalized the process of developing the substitution rules, and performed a computational search to find other solutions. I found either that the symmetry collapses, or if it doesn't collapse then the solution is MLD with either the original tiling or its companion. This suggests that this one parity-bit is all that is hidden in the original tiling[6].  
 
 ## Conclusion
 
