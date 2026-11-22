@@ -36,3 +36,5 @@ The following table shows shapes with finite convex hole spectra.
 | ![ZA](/assets/images/2026-11-21/ZA.png "ZA")      | {4,8,14}       |  |
 | ![ZB](/assets/images/2026-11-21/ZB.png "ZB")      | {3,4,6,8,12}       |  |
 | ![ZC](/assets/images/2026-11-21/ZC.png "ZC")      | {5}       |  |
+
+If you can extend these results - please email me: andrew.bayly@mac.com
