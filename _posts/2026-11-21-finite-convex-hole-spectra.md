@@ -12,7 +12,7 @@ The following table shows shapes with finite convex hole spectra.
 | ----------- | ----------- | ------- |
 | ![A](/assets/images/2026-11-21/A.png "A")      | {2,8,10}       | Yoshiaki Araki  |
 | ![B](/assets/images/2026-11-21/B.png "B")      | {2,3}       |  |
-| ![C](/assets/images/2026-11-21/C.png "C")      | {2,3,4,6,7}       |  |
+| ![C](/assets/images/2026-11-21/C.png "C")      | {2,3,4,6,7,8}       | Andrew Bayly, George Sicherman |
 | ![D](/assets/images/2026-11-21/D.png "D")      | {6,10}       |  |
 | ![H](/assets/images/2026-11-21/H.png "H")      | {2,4,36}       | George Sicherman |
 | ![I](/assets/images/2026-11-21/I.png "I")      | {4,12}       | Mike Reid |
