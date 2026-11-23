@@ -11,6 +11,7 @@ The following table shows shapes with finite convex hole spectra.
 | Shape      | Spectrum | Author |
 | ----------- | ----------- | ------- |
 | ![A](/assets/images/2026-11-21/A.png "A")      | {2,8,10}       | Yoshiaki Araki  |
+| ![ZF](/assets/images/2026-11-21/ZF.png "ZF")      | {4,5}       |  |
 | ![B](/assets/images/2026-11-21/B.png "B")      | {2,3}       |  |
 | ![E](/assets/images/2026-11-21/E.png "E")      | {2,4}       | George Sicherman |
 | ![C](/assets/images/2026-11-21/C.png "C")      | {2,3,4,6,7,8}       | Andrew Bayly, George Sicherman |
