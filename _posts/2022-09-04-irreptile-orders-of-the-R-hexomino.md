@@ -11,7 +11,7 @@ This hexomino is also an irreptile, and its minimal irreptile tiling is shown he
 ![63](/assets/images/2022-09-04/poly-6B-63.png "63")
 
 While the order of the irreptile tiling is 63, the question at hand is what are the possible orders of irreptile tilings. The following argument shows 
-all orders greater than or equal to 120 are possible. 
+all orders greater than or equal to 84 are possible. 
   
 ### Proof
 First, consider the following constructions of a square from 54, 57, 60 and 63 tiles:
@@ -40,10 +40,15 @@ Further, note that we can surround any square tiling with 4 tiles, resulting in 
 
 From this we conclude that a square can be tiled with any value 63 or more. 
 
-Apply this result to the following tiling, and we have our conclusion that all tilings 120 or more are possible:
+Apply this result to the following tiling, and we conclude that all tilings 120 or more are possible:
 
 ![pic-8](/assets/images/2022-09-04/pic-8.png "pic-8")
 
+Furthermore, tilings from 84 through 120 are handled as follows on a case by case basis. The purple rectangles expand as follows: 
+
+![rectangle](/assets/images/2022-09-04/R_hexomino_rectangle.png "rectangle")
 
 
+
+![summary](/assets/images/2022-09-04/poly-6B-84-120.png "summary")
 
