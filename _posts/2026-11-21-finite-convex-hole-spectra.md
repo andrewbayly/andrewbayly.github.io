@@ -20,7 +20,10 @@ The following table shows shapes with finite convex hole spectra.
 | ![I](/assets/images/2026-11-21/I.png "I")      | {4,12}       | Mike Reid |
 | ![J](/assets/images/2026-11-21/J.png "J")      | {4,20}       | Mike Reid |
 | ![K](/assets/images/2026-11-21/K.png "K")      | {2,18}       | Yoshiaki Araki |
-| ![L](/assets/images/2026-11-21/L.png "L")      | {4,6,16}       | George Sicherman |
+| ![7-2](/assets/images/2026-11-21/7-2.png "7-2")      | {4,6,16,20}       | George Sicherman |
+| ![6-5](/assets/images/2026-11-21/6-5.png "6-5")      | {3,12}       | George Sicherman |
+| ![7-5](/assets/images/2026-11-21/7-5.png "7-5")      | {2,4,6}       | George Sicherman |
+| ![7-8](/assets/images/2026-11-21/7-8.png "7-8")      | {2,3}       | George Sicherman |
 | ![M](/assets/images/2026-11-21/M.png "M")      | {6,8}       | Mike Reid |
 | ![ZD](/assets/images/2026-11-21/ZD.png "ZD")      | {3,4,6,9}       |  |
 | ![ZE](/assets/images/2026-11-21/ZE.png "ZE")      | {6,8,12,18}       |  |
