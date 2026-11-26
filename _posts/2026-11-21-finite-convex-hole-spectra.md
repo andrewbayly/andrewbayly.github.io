@@ -24,6 +24,9 @@ The following table shows shapes with finite convex hole spectra.
 | ![6-5](/assets/images/2026-11-21/6-5.png "6-5")      | {3,12}       | George Sicherman |
 | ![7-5](/assets/images/2026-11-21/7-5.png "7-5")      | {2,4,6}       | George Sicherman |
 | ![7-8](/assets/images/2026-11-21/7-8.png "7-8")      | {2,3}       | George Sicherman |
+| ![5-2](/assets/images/2026-11-21/5-2.png "5-2")      | {4,7,8,9}       | George Sicherman |
+| ![5-4](/assets/images/2026-11-21/5-4.png "5-4")      | {4,6,8}       | George Sicherman |
+| ![5-28](/assets/images/2026-11-21/5-28.png "5-28")      | {4,6}       | George Sicherman |
 | ![M](/assets/images/2026-11-21/M.png "M")      | {6,8}       | Mike Reid |
 | ![ZD](/assets/images/2026-11-21/ZD.png "ZD")      | {3,4,6,9}       |  |
 | ![ZE](/assets/images/2026-11-21/ZE.png "ZE")      | {6,8,12,18}       |  |
